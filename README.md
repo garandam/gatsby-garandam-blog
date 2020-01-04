@@ -1,5 +1,7 @@
 # My Personal Blog build with Gatsby
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ae7a6bc8-5eb8-4f34-956d-b51d3b2b3758/deploy-status)](https://app.netlify.com/sites/100daysofgatsby-garandam/deploys)
+
 ## ⭐️ Core Components
 
 - [TailwindCSS](https://tailwindcss.com/)
