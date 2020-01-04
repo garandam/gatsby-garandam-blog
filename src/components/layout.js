@@ -7,32 +7,28 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+class Layout extends React.Component {
+  render() {
+    const { location, title, children } = this.props
+    // const rootPath = `${__PATH_PREFIX__}/`
+    // const blogPath = `${__PATH_PREFIX__}/blog/`
 
-  return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
-    </>
-  )
+    //if (location.pathname === rootPath || location.pathname === blogPath) {
+    // maybe add different Header
+    //}
+
+    return (
+      <>
+        <Header siteTitle={title}></Header>
+        <main>{children}</main>
+        <Footer></Footer>
+      </>
+    )
+  }
 }
 
 Layout.propTypes = {

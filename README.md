@@ -1,6 +1,6 @@
 # My Personal Blog build with Gatsby
 
-## ⭐️ Blog Core Components
+## ⭐️ Core Components
 
 - [TailwindCSS](https://tailwindcss.com/)
 - [Gatsby - TailwindCSS](https://www.gatsbyjs.org/docs/tailwind-css/)
@@ -11,6 +11,8 @@
 
 - [gatsby-plugin-postcss](https://www.gatsbyjs.org/packages/gatsby-plugin-postcss)
 - [gatsby-plugin-mdx](https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/)
+- [gatsby-remark-images](https://www.gatsbyjs.org/packages/gatsby-remark-images/)
+- [gatsby-remark-vscode](https://www.gatsbyjs.org/packages/gatsby-remark-vscode/)
 
 ## 🚀 Quick start
 
