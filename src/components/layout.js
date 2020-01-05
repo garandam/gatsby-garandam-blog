@@ -25,7 +25,11 @@ class Layout extends React.Component {
       <>
         <div class="flex flex-col min-h-screen bg-gray-100 font-sans leading-normal tracking-normal">
           <Header siteTitle={title}></Header>
-          <main class="flex-grow">{children}</main>
+          <main class="flex-grow">
+            <div class="container w-full md:max-w-3xl mx-auto pt-20">
+              {children}
+            </div>
+          </main>
           <Footer></Footer>
         </div>
       </>
