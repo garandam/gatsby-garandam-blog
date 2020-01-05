@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
 class Header extends React.Component {
-  state = { isOpen: true }
+  state = { isOpen: false }
 
   toggleMenu = () => {
     this.setState({
