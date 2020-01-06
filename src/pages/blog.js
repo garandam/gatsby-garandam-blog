@@ -14,25 +14,55 @@ class BlogPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All Blog posts" />
-        <div>
+
+        <div className="w-full text-gray-800 text-center text-4xl font-extrabold underline py-4">
+          Blog
+        </div>
+
+        <div className="my-12">
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-              <div key={node.fields.slug}>
-                <h3>
-                  <Link to={`/blog${node.fields.slug}`}>{title}</Link>
-                </h3>
-                <small>{node.frontmatter.date}</small>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.excerpt,
-                  }}
-                />
+              <div
+                key={node.fields.slug}
+                className="w-full bg-white rounded hover:bg-gray-200 focus:bg-gray-200 overflow-hidden shadow-lg mb-4"
+              >
+                <Link
+                  to={`/blog${node.fields.slug}`}
+                  className="no-underline hover:no-underline"
+                >
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">{title}</div>
+                    <p
+                      className="text-gray-700 text-base"
+                      dangerouslySetInnerHTML={{
+                        __html: node.excerpt,
+                      }}
+                    ></p>
+                  </div>
+                  <div className="flex items-center justify-between px-6 py-4">
+                    <div>
+                      <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                        #tagOne
+                      </span>
+                      <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                        #tagTwo
+                      </span>
+                      <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                        #tagThree
+                      </span>
+                    </div>
+                    <div>
+                      <p className="text-gray-600 text-xs md:text-sm">
+                        {node.frontmatter.date}
+                      </p>
+                    </div>
+                  </div>
+                </Link>
               </div>
             )
           })}
         </div>
-        <Link to="/">Go back to the homepage</Link>
       </Layout>
     )
   }
