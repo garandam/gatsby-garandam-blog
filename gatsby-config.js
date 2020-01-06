@@ -59,6 +59,15 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    // ... PURGECSS MUST BE LAST ...
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: false,
+        develop: false,
+        tailwind: true,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
