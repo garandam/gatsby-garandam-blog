@@ -3,7 +3,7 @@ title: 100DaysOfGatsby - Challenge - Day 1
 date: 2020-01-01T19:40:06.489Z
 description: Gatsby - Challenge - Day 1
 ---
-### Foreword  
+### Foreword
 
 I assigned and committed to the `#100DaysOfGatsby`-Challenge quite late or to name it correctly in the morning of the 01.01.2020.
 
@@ -12,12 +12,12 @@ Then I was unsure if this challenge already started, but I was quite lucky that 
 The next Steps I did because the Challenge hasn’t started yet was reading through [100DaysOfCode.com](https://100DaysOfCode.com)
 
 I agree & commit to this `Two Main Rules`
-1. Code minimum an hour every day for the next 100 days.
-2. Tweet my progress every day with the `#100DaysOfGatsby` and `#100DaysOfCode` hashtag
+- Code minimum an hour every day for the next 100 days.
+- Tweet my progress every day with the `#100DaysOfGatsby` and `#100DaysOfCode` hashtag
 
 I added a few more rules:
-3. I will update the Blog (Log) with the day’s progress and provide some details, that others understand and follow what I did.
-4. I will push my code to GitHub so that anyone can see my progress.
+- I will update the Blog (Log) with the day’s progress and provide some details, that others understand and follow what I did.
+- I will push my code to GitHub so that anyone can see my progress.
 
 What was the main reason to commit to [#100DaysOfGatsby](https://twitter.com/hashtag/100DaysOfGatsby) and [#100DaysOfCode](https://twitter.com/hashtag/100DaysOfCode):
 - Learning some new technologies in 2020 (React, GraphQL, Gatsby, TailwindCSS ...)

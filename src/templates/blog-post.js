@@ -17,27 +17,29 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
-        <p>{post.frontmatter.date}</p>
-        <MDXRenderer>{post.body}</MDXRenderer>
-        <hr />
+        <div className="markdown">
+          <h1>{post.frontmatter.title}</h1>
+          <p>{post.frontmatter.date}</p>
+          <MDXRenderer>{post.body}</MDXRenderer>
+          <hr />
 
-        <ul>
-          <li>
-            {previous && (
-              <Link to={`/blog${previous.fields.slug}`} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={`/blog${next.fields.slug}`} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
+          <ul>
+            <li>
+              {previous && (
+                <Link to={`/blog${previous.fields.slug}`} rel="prev">
+                  ← {previous.frontmatter.title}
+                </Link>
+              )}
+            </li>
+            <li>
+              {next && (
+                <Link to={`/blog${next.fields.slug}`} rel="next">
+                  {next.frontmatter.title} →
+                </Link>
+              )}
+            </li>
+          </ul>
+        </div>
       </Layout>
     )
   }
