@@ -6,13 +6,16 @@ description: Setup a new Github Project
 
 ### PreRequisites
 
-Setup: Git
+- Setup: Git (see other Blog-Post - coming soon)
+- [Gatsby Tutorial - Install Git](https://www.gatsbyjs.org/tutorial/part-zero/#install-git)
 
 ### Create Github Account
 
 [GitHub](https://github.com/)
 
 ### Create a new Repository on GitHub
+
+![Create a new Repository](../assets/create_new_repo.png)
 
 ### Setup local Project and connect with GitHub Repository (only once)
 
@@ -30,7 +33,7 @@ $ git add .
 $ git commit -m "initial commit"
 ```
 
-or for a gatsby Blog, because the gatsby-CLI does \$ git init for you
+or for a gatsby Blog, because the gatsby-CLI does `$ git init` for you
 
 ```sh
 $ gatsby new projectName
