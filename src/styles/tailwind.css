@@ -13,6 +13,7 @@
 .markdown h2 {
   @apply text-2xl my-6 font-bold;
 }
+
 .markdown h3,
 .markdown h4,
 .markdown h5,
@@ -63,5 +64,13 @@
 }
 .markdown table {
   @apply mb-6;
+}
+
+.markdown pre {
+  @apply mb-6;
+}
+
+.markdown p > code {
+  @apply bg-gray-500 font-light p-1;
 }
 /* purgecss end ignore */
