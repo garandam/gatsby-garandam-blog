@@ -59,6 +59,8 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    // The offline plugin should be listed after the manifest plugin
+    `gatsby-plugin-offline`,
     // ... PURGECSS MUST BE LAST ...
     {
       resolve: `gatsby-plugin-purgecss`,
