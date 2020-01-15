@@ -29,6 +29,7 @@ http://localhost:8000/___graphql
 ### GraphQL - Data
 
 To create your markdown pages, you'll learn to use two Gatsby APIs within `gatsby-node.js`:
+
 - `onCreateNode`
 - and
 - `createPages`

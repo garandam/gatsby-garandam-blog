@@ -1,12 +1,13 @@
 ---
-title: 'Setup: Github - Project'
+title: "Setup: Github - Project"
 date: 2020-01-12T19:40:06.489Z
 description: Setup a new Github Project
 ---
+
 ### PreRequisites
 
-* Setup: Git (see other Blog-Post - coming soon)
-* [Gatsby Tutorial - Install Git](https://www.gatsbyjs.org/tutorial/part-zero/#install-git)
+- Setup: Git (see other Blog-Post - coming soon)
+- [Gatsby Tutorial - Install Git](https://www.gatsbyjs.org/tutorial/part-zero/#install-git)
 
 ### Create Github Account
 
