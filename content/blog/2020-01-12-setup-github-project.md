@@ -2,6 +2,7 @@
 title: "Setup: Github - Project"
 date: 2020-01-12T19:40:06.489Z
 description: Setup a new Github Project
+tags: ["vscode", "tutorial"]
 ---
 
 ### PreRequisites

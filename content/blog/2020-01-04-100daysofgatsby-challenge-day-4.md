@@ -2,6 +2,7 @@
 title: 100DaysOfGatsby - Challenge - Day 4
 date: 2020-01-04T19:40:06.489Z
 description: Gatsby - Challenge - Day 4
+tags: ["gatsby", "challenge"]
 ---
 
 ### Progress of Day 4

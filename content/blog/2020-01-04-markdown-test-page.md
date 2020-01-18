@@ -2,6 +2,7 @@
 title: Markdown Test Page
 date: "2020-01-04"
 description: "A Markdown Styling Testpage to see the endresult of rendering"
+tags: ["test", "tailwindcss"]
 ---
 
 ### Title
