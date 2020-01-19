@@ -42,15 +42,16 @@ class BlogPage extends React.Component {
                   </div>
                   <div className="flex items-center justify-between px-6 py-4">
                     <div>
-                      <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                        #tagOne
-                      </span>
-                      <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                        #tagTwo
-                      </span>
-                      <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
-                        #tagThree
-                      </span>
+                      {node.frontmatter.tags.map(tag => {
+                        return (
+                          <Link
+                            to={`/tags/${tag}`}
+                            className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+                          >
+                            {tag}
+                          </Link>
+                        )
+                      })}
                     </div>
                     <div>
                       <p className="text-gray-600 text-xs md:text-sm">
@@ -88,6 +89,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
           }
         }
       }
