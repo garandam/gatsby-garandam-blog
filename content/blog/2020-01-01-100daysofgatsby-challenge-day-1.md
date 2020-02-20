@@ -2,6 +2,7 @@
 title: 100DaysOfGatsby - Challenge - Day 1
 date: 2020-01-01T19:40:06.489Z
 description: Gatsby - Challenge - Day 1
+tags: ["gatsby", "challenge"]
 ---
 
 ### Foreword

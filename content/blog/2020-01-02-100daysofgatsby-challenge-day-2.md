@@ -2,6 +2,7 @@
 title: 100DaysOfGatsby - Challenge - Day 2
 date: 2020-01-02T19:40:06.489Z
 description: Gatsby - Challenge - Day 2
+tags: ["gatsby", "challenge"]
 ---
 
 ### Progress of Day 2

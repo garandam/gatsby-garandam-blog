@@ -2,6 +2,7 @@
 title: 100DaysOfGatsby - Challenge - Day 3
 date: 2020-01-03T19:40:06.489Z
 description: Gatsby - Challenge - Day 3
+tags: ["gatsby", "challenge"]
 ---
 
 ### Progress of Day 3

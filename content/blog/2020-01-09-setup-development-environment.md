@@ -2,6 +2,7 @@
 title: Setup Development Environment
 date: "2020-01-09"
 description: "Setup a Development Environment from scratch with VS Code"
+tags: ["vscode", "tutorial"]
 ---
 
 ### Install VS Code
